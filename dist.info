@@ -1,0 +1,13 @@
+--- This file is part of LuaDist project
+
+name = "sool"
+version = "10beta1"
+
+author = "Rafael Sabbagh Armony"
+url = "http://luaforge.net/projects/sool/"
+desc = "SOOL - Simple Object Oriented lib for Lua."
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1"
+}
