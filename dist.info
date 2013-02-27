@@ -1,0 +1,26 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Rafael Sabbagh Armony"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "SOOL - Simple Object Oriented lib for Lua."
+version = "10beta1"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/sool.lua]],
+}
+,
+Documentation = {
+[[share/sool/doc//luadoc.css]],
+[[share/sool/doc//modules/sool.html]],
+[[share/sool/doc//index.html]],
+}
+,
+}
+
+license = "Unknown"
+url = "http://luaforge.net/projects/sool/"
+name = "sool"
